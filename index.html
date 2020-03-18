@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CAH with Jitsi</title>
+  <link rel="stylesheet" type"text/css" href="./site.css">
+</head>
+<body>
+
+<div class="card card-black"></div>
+<div class="card card-white"></div>
+<div class="card card-white"></div>
+<div class="card card-white"></div>
+<div id="meet"></div>
+
+<script src='https://meet.jit.si/external_api.js'></script>
+
+<script>
+const domain = 'meet.jit.si';
+const options = {
+  roomName: 'WereHackingThisTogetherHCKYEAH',
+  height: 700,
+  parentNode: document.querySelector('#meet'),
+  interfaceConfigOverwrite: { filmStripOnly: false },
+};
+const api = new JitsiMeetExternalAPI(domain, options);
+</script>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+body {
+  background-color: cadetblue;
+  float: left;
+  width: 100%;
+}
+#meet {
+  background-color: red;
+  width: fit-content;
+  float: right;
+  margin-right: 15px;
+}
+.card-black {
+  float: left;
+  color: white;
+  background-color: black;
+}
+.card-white {
+  float: left;
+  color: black;
+  background-color: white;
+  box-shadow: 5px 5px rgba(127,127,127,0.5);
+}
+.card {
+  width: 220px;
+  height: 300px;
+  box-shadow: 5px 5px rgba(127,127,127,0.5);
+  margin: 0 15px;
+  border-radius: 8px;
+}
